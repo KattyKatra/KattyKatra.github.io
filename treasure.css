@@ -1,0 +1,86 @@
+/*Name: treasure.css*/
+
+body {
+  background-color: #fff3d6;
+}
+.hero-image {
+  background-image: url(https://images.pexels.com/photos/697662/pexels-photo-697662.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+  background-color: #f8a138
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+  color: #FCDAB0;
+  font-size: 75px;
+  border-bottom: double;
+  font-family: gabriola;
+  margin: auto;
+  /* background-color: white; */
+}
+h2 {
+  text-align: center;
+  color: #FBD19D;
+  font-family: gabriola;
+  font-size: 45px;
+  /* background-color: white; */
+}
+h3 {
+  text-align: center;
+  color: #3B2102;
+  font-size: 50px;
+  font-family: gabriola;
+  margin: auto;
+}
+#img1 {
+  text-align: center;
+}
+#tc {
+  height: 250px;
+  animation: bounce-in 1s;
+}
+  @keyframes bounce-in {
+  0%{ opacity: 0; transform: scale(.3); }
+  50%{ opacity: 1; transform: scale(1.0); }
+  70%{ transform: scale(0.9); }
+  100%{ transform: scale(1); }
+}
+ul {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding: center;
+  margin: auto;
+  font-family: gabriola;
+  list-style-type: none;
+  /* padding-bottom: 20px; */
+  padding-right: 40px;
+  /* background-color: black; */
+}
+table {
+  background-color: #FCDAB0;
+  text-align: center;
+  margin: auto;
+  border: 2px solid;
+  border-color: black;
+  border-width: thick;
+  page-break-inside: auto;
+  padding: 20px;
+}
+td {
+  border: 2px dashed black;
+  font-size: 40px;
+  height: 100px
+  text-align: center;
+  color: #f36569;
+  padding: 45px;
+  font-family: gabriola
+}
+.footer {
+  text-align: center;
+  padding-top: 20px;
+}
+#link {
+  color: white;
+}
